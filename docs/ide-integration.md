@@ -136,8 +136,8 @@ If you encounter issues with IDE integration, here are some common error message
 ### General Errors
 
 - **Message:** `IDE integration is not supported in your current environment. To use this feature, run Gemini CLI in one of these supported IDEs: [List of IDEs]`
-  - **Cause:** You are running Gemini CLI in a terminal or environment that is not a supported IDE.
-  - **Solution:** Run Gemini CLI from the integrated terminal of a supported IDE, like VS Code.
+  - **Cause:** You are running Kite CLI in a terminal or environment that is not a supported IDE.
+  - **Solution:** Run Kite CLI from the integrated terminal of a supported IDE, like VS Code.
 
 - **Message:** `No installer is available for IDE. Please install the Gemini CLI Companion extension manually from the marketplace.`
   - **Cause:** You ran `/ide install`, but the CLI does not have an automated installer for your specific IDE.
