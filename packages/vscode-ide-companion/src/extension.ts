@@ -161,7 +161,7 @@ export async function activate(context: vscode.ExtensionContext) {
     vscode.workspace.onDidGrantWorkspaceTrust(() => {
       ideServer.syncEnvVars();
     }),
-    vscode.commands.registerCommand('gemini-cli.runGeminiCLI', async () => {
+    vscode.commands.registerCommand('kite-cli.runKiteCLI', async () => {
       const workspaceFolders = vscode.workspace.workspaceFolders;
       if (!workspaceFolders || workspaceFolders.length === 0) {
         vscode.window.showInformationMessage(
