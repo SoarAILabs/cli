@@ -1,15 +1,15 @@
 {
-  "name": "@google/gemini-cli",
+  "name": "kite-cli",
   "version": "0.6.0-nightly",
-  "description": "Gemini CLI",
+  "description": "Kite CLI",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/google-gemini/gemini-cli.git"
+    "url": "git+https://github.com/SoarAILabs/cli.git"
   },
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "gemini": "dist/index.js"
+    "kite": "dist/index.js"
   },
   "scripts": {
     "build": "node ../../scripts/build_package.js",
@@ -28,7 +28,7 @@
     "sandboxImageUri": "us-docker.pkg.dev/gemini-code-dev/gemini-cli/sandbox:0.6.0-nightly"
   },
   "dependencies": {
-    "@google/gemini-cli-core": "file:../core",
+    "@soarai/kite-cli-core": "file:../core",
     "@google/genai": "1.16.0",
     "@iarna/toml": "^2.2.5",
     "@modelcontextprotocol/sdk": "^1.15.1",

@@ -1,13 +1,13 @@
 {
-  "name": "gemini-cli-vscode-ide-companion",
-  "displayName": "Gemini CLI Companion",
-  "description": "Enable Gemini CLI with direct access to your IDE workspace.",
+  "name": "kite-cli-vscode-ide-companion",
+  "displayName": "Kite CLI Companion",
+  "description": "Enable Kite CLI with direct access to your IDE workspace.",
   "version": "0.6.0-nightly",
   "publisher": "google",
   "icon": "assets/icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/google-gemini/gemini-cli.git",
+    "url": "https://github.com/SoarAILabs/cli.git",
     "directory": "packages/vscode-ide-companion"
   },
   "engines": {
@@ -48,7 +48,7 @@
         "icon": "$(close)"
       },
       {
-        "command": "gemini-cli.runGeminiCLI",
+        "command": "kite-cli.runKiteCLI",
         "title": "Gemini CLI: Run"
       },
       {
