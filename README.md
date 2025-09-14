@@ -1,6 +1,6 @@
 we use the font **Terrace** for the ascii art 
 
-# Gemini CLI
+# Kite CLI
 
 [![Gemini CLI CI](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml)
 [![Gemini CLI E2E](https://github.com/google-gemini/gemini-cli/actions/workflows/e2e.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/e2e.yml)
@@ -9,9 +9,9 @@ we use the font **Terrace** for the ascii art
 
 ![Gemini CLI Screenshot](./docs/assets/gemini-screenshot.png)
 
-Gemini CLI is an open-source AI agent that brings the power of Gemini directly into your terminal. It provides lightweight access to Gemini, giving you the most direct path from your prompt to our model.
+Kite CLI is an open-source AI agent that brings the power of Gemini directly into your terminal. It provides lightweight access to Gemini, giving you the most direct path from your prompt to our model.
 
-## 🚀 Why Gemini CLI?
+## 🚀 Why Kite CLI?
 
 - **🎯 Free tier**: 60 requests/min and 1,000 requests/day with personal Google account
 - **🧠 Powerful Gemini 2.5 Pro**: Access to 1M token context window
@@ -28,19 +28,19 @@ Gemini CLI is an open-source AI agent that brings the power of Gemini directly i
 
 ```bash
 # Using npx (no installation required)
-npx https://github.com/google-gemini/gemini-cli
+npx https://github.com/SoarAILabs/cli
 ```
 
 #### Install globally with npm
 
 ```bash
-npm install -g @google/gemini-cli
+npm install -g kite-cli
 ```
 
 #### Install globally with Homebrew (macOS/Linux)
 
 ```bash
-brew install gemini-cli
+brew install kite-cli
 ```
 
 #### System Requirements
