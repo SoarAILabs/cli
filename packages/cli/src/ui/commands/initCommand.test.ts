@@ -56,7 +56,7 @@ describe('initCommand', () => {
     expect(fs.writeFileSync).not.toHaveBeenCalled();
   });
 
-  it('should create GEMINI.md and submit a prompt if it does not exist', async () => {
+  it('should create KITE.md and submit a prompt if it does not exist', async () => {
     // Arrange: Simulate that the file does not exist
     vi.mocked(fs.existsSync).mockReturnValue(false);
 
@@ -70,7 +70,7 @@ describe('initCommand', () => {
     expect(mockContext.ui.addItem).toHaveBeenCalledWith(
       {
         type: 'info',
-        text: 'Empty GEMINI.md created. Now analyzing the project to populate it.',
+        text: 'Empty KITE.md created. Now analyzing the project to populate it.',
       },
       expect.any(Number),
     );
